@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>webpage</title>
+        <link rel="stylesheet" href="web.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="navbar">
+                <div class="icon">
+                    <h2 class="logo">chinnu</h2>
+                </div>
+                <div class="Menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About </a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Contact</a></li>    
+                    </ul>
+                </div>
+                </div>
+                <div class="search">
+                    <input class="srch" type="search" name=""placeholder="Type to text">
+                    <a href="#"><button class="btn" >Search</button></a>
+                </div>
+                <div class="content">
+                    <h1>I'm<br><span>Rajesh Kumar</span><br>Electronic Student</h1>
+                    <p class="par">Hi guys !<br>This is rajesh ,currently I am persuing Second BTech in Aditya college of engineering</p>
+                    <button class="cn"><a href="#">contact me</a></button>
+                    <div class="form">
+                        <h2>Login here</h2>
+                        
+                        <input typr="email" name="email"placeholder="enter email here">
+                        <input typr="password" name="password"placeholder="enter password here">
+                        <button class="btnn"><a href="#">login</a></button>
+
+                       <p class="link">Dont have an account<br>
+                       <a href="#">sign up</a></p>
+                       <p class="liw">login With</p>
+                       <div class="icon">
+                        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-Instagram"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-safari"></ion-icon></a>
+                       </div>
+        
+                    </div>
+                </div>
+            
+        </div>
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    </body>
+</html>
